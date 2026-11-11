@@ -1,3 +1,4 @@
-Version control lets a team work on the same project without overwriting
-each other's changes. Every commit records who made the change and when,
-so the history of the project can always be traced and reviewed.
+Branching allows developers to create isolated environments for new features,
+bug fixes or experiments, keeping the main branch safe while work continues.
+Once a feature is complete the changes can be merged back into the main branch.
+Continuous integration then builds and tests every change automatically.
