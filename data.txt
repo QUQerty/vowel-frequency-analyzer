@@ -1,0 +1,3 @@
+Version control lets a team work on the same project without overwriting
+each other's changes. Every commit records who made the change and when,
+so the history of the project can always be traced and reviewed.

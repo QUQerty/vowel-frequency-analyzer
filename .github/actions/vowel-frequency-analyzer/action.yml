@@ -1,0 +1,15 @@
+name: "Vowel Frequency Analyzer"
+description: "Counts the vowels in a text file and records the result in README.md."
+
+inputs:
+  file:
+    description: "Path to the text file to analyse."
+    required: true
+    default: "data.txt"
+
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/quqerty/vowel-frequency-analyzer:latest"
+  entrypoint: "/app/.github/scripts/entrypoint.sh"
+  env:
+    FILE: ${{ inputs.file }}
